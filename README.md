@@ -1,3 +1,48 @@
+# Monterey, Appleシリコン(M1)/arm64 対応版 cooViewer
+依存する XADMaster と UniversalDetector を submodule 化して簡単にビルドできるようにしただけ。
+自分でビルドできる方向け(要: Xcode, git)、バイナリは配布しません。
+ビルド方法は後述。
+
+2022/08 現在の XADMaster を持ってきているので RAR5 アーカイブも扱える。
+
+<br>
+
+## 開発, 確認環境
+- MacBook Pro (2021, M1) + Monterey
+- MacBook Pro (2018, Intel) + Monterey
+
+## ビルド
+### CLI
+```
+$ git clone --recursive https://github.com/plife18/cooViewer.git
+$ cd cooViewer
+$ xcodebuild -configuration Deployment [-arch x86_64/arm64]
+```
+ビルドに成功すると `cooViewer/build/Deployment` 以下に `cooViewer.app` ができる。
+`-arch` 以下を省略すると x86_64/arm64 のユニバーサルバイナリ２ができる。
+`-arch` を指定する場合は自分の環境に合わせて指定する。
+<br>
+\# Apple系の開発者ではなく Xcode 的な流儀は知らないので、configuration の "Deployment" が適切なのか否かは不明。
+
+### GUI: Xcode.app
+1. cooViewer/cooViewer.xcodeproj を開く。
+1. メニュー → Build (or Cmd+B)
+1. 左ペインの Project Nagivator: cooViewer/Products/cooViewer.app の右クリックから "Show in Finder" でビルドした app が見つかる。
+
+\# configuration: "Development" が適用され、操作中環境用ビルドができる、多分。Apple系の開発者ではないので(略)。
+
+
+<br>
+<br>
+以下、fork 元の README.md
+
+---
+---
+---
+<br>
+<br>
+
+
 # cooViewer1.2b
 https://coo-ona.github.io/cooViewer/
 
