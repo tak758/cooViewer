@@ -31,6 +31,10 @@ $ xcodebuild -configuration Deployment [-arch x86_64/arm64]
 
 \# configuration: "Development" が適用され、操作中環境用ビルドができる、多分。Apple系の開発者ではないので(略)。
 
+## custom ブランチ
+`custom` ブランチは、某所の有志により提示された以下の変更を含みます。
+- Rounded-Rectangle アイコン (Big Sur 以降の丸角アイコン)
+- フルスクリーン時に上部に余白が残るのを修正
 
 <br>
 <br>
