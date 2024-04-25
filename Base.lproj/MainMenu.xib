@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22689"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,7 +16,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="103" y="366" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -357,7 +356,7 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="172" width="633" height="580"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="447">
                 <rect key="frame" x="0.0" y="0.0" width="633" height="580"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -376,7 +375,7 @@
                                             <rect key="frame" x="17" y="364" width="413" height="124"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="VnG-xW-KNH">
-                                                <rect key="frame" x="3" y="3" width="407" height="106"/>
+                                                <rect key="frame" x="4" y="5" width="405" height="104"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <matrix verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autosizesCells="NO" translatesAutoresizingMaskIntoConstraints="NO" id="449">
@@ -436,7 +435,7 @@
                                                         </textFieldCell>
                                                     </textField>
                                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2850">
-                                                        <rect key="frame" x="10" y="9" width="310" height="18"/>
+                                                        <rect key="frame" x="10" y="7" width="310" height="18"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <buttonCell key="cell" type="check" title="Remember chenged book setting of all books" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4368">
                                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -459,7 +458,7 @@
                                             <rect key="frame" x="17" y="188" width="413" height="84"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="K4S-hM-csh">
-                                                <rect key="frame" x="3" y="3" width="407" height="66"/>
+                                                <rect key="frame" x="4" y="5" width="405" height="64"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="473">
@@ -560,7 +559,7 @@
                                             <rect key="frame" x="17" y="276" width="413" height="84"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="ZL0-UE-W3R">
-                                                <rect key="frame" x="3" y="3" width="407" height="66"/>
+                                                <rect key="frame" x="4" y="5" width="405" height="64"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="801">
@@ -721,7 +720,7 @@ go to the last page always.</string>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1627">
-                                            <rect key="frame" x="18" y="38" width="260" height="18"/>
+                                            <rect key="frame" x="18" y="38" width="409" height="18"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <buttonCell key="cell" type="check" title="Fit original size window to image size" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4315">
                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -732,11 +731,11 @@ go to the last page always.</string>
                                             <rect key="frame" x="17" y="151" width="413" height="135"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="QeR-FR-Gjo">
-                                                <rect key="frame" x="3" y="3" width="407" height="117"/>
+                                                <rect key="frame" x="4" y="5" width="405" height="115"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1972">
-                                                        <rect key="frame" x="130" y="11" width="83" height="17"/>
+                                                        <rect key="frame" x="130" y="9" width="83" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Background:" id="4388">
                                                             <font key="font" metaFont="system"/>
@@ -745,7 +744,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1974">
-                                                        <rect key="frame" x="300" y="11" width="58" height="17"/>
+                                                        <rect key="frame" x="300" y="9" width="58" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Read:" id="4389">
                                                             <font key="font" metaFont="system"/>
@@ -754,7 +753,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1976">
-                                                        <rect key="frame" x="9" y="11" width="50" height="17"/>
+                                                        <rect key="frame" x="9" y="9" width="50" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Border:" id="4390">
                                                             <font key="font" metaFont="system"/>
@@ -829,7 +828,7 @@ go to the last page always.</string>
                                                         </connections>
                                                     </popUpButton>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2827">
-                                                        <rect key="frame" x="9" y="39" width="83" height="17"/>
+                                                        <rect key="frame" x="9" y="37" width="83" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Font:" id="4397">
                                                             <font key="font" metaFont="system"/>
@@ -891,7 +890,7 @@ go to the last page always.</string>
                                             <rect key="frame" x="17" y="290" width="413" height="134"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="zur-GO-M3a">
-                                                <rect key="frame" x="3" y="3" width="407" height="116"/>
+                                                <rect key="frame" x="4" y="5" width="405" height="114"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2138" customClass="COColorPopUpButton">
@@ -911,7 +910,7 @@ go to the last page always.</string>
                                                         </connections>
                                                     </popUpButton>
                                                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2769">
-                                                        <rect key="frame" x="50" y="37" width="212" height="21"/>
+                                                        <rect key="frame" x="50" y="37" width="210" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="#1-2/345 (67.jpg | 89.jpg)" drawsBackground="YES" id="4403">
                                                             <font key="font" metaFont="system"/>
@@ -931,7 +930,7 @@ go to the last page always.</string>
                                                         </connections>
                                                     </button>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2778">
-                                                        <rect key="frame" x="9" y="39" width="36" height="17"/>
+                                                        <rect key="frame" x="9" y="37" width="36" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Font:" id="4405">
                                                             <font key="font" metaFont="system"/>
@@ -940,7 +939,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2785">
-                                                        <rect key="frame" x="131" y="11" width="83" height="17"/>
+                                                        <rect key="frame" x="131" y="9" width="83" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Background:" id="4406">
                                                             <font key="font" metaFont="system"/>
@@ -973,7 +972,7 @@ go to the last page always.</string>
                                                         </buttonCell>
                                                     </button>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2816">
-                                                        <rect key="frame" x="9" y="11" width="50" height="17"/>
+                                                        <rect key="frame" x="9" y="9" width="50" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Border:" id="4409">
                                                             <font key="font" metaFont="system"/>
@@ -1020,11 +1019,11 @@ go to the last page always.</string>
                                             <rect key="frame" x="225" y="87" width="188" height="60"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="Lcd-ah-M8w">
-                                                <rect key="frame" x="3" y="3" width="182" height="42"/>
+                                                <rect key="frame" x="4" y="5" width="180" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1291">
-                                                        <rect key="frame" x="47" y="11" width="26" height="19"/>
+                                                        <rect key="frame" x="47" y="9" width="26" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="10" drawsBackground="YES" id="4413">
                                                             <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="1292">
@@ -1040,7 +1039,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1294">
-                                                        <rect key="frame" x="146" y="11" width="26" height="19"/>
+                                                        <rect key="frame" x="146" y="9" width="26" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="10" drawsBackground="YES" id="4414">
                                                             <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="1293">
@@ -1056,7 +1055,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1296">
-                                                        <rect key="frame" x="12" y="14" width="35" height="13"/>
+                                                        <rect key="frame" x="12" y="12" width="35" height="13"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="rows=" id="4415">
                                                             <font key="font" metaFont="label"/>
@@ -1065,7 +1064,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1297">
-                                                        <rect key="frame" x="93" y="14" width="53" height="13"/>
+                                                        <rect key="frame" x="93" y="12" width="53" height="13"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="columns=" id="4416">
                                                             <font key="font" metaFont="label"/>
@@ -1080,11 +1079,11 @@ go to the last page always.</string>
                                             <rect key="frame" x="17" y="87" width="206" height="60"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="h2S-Vm-02u">
-                                                <rect key="frame" x="3" y="3" width="200" height="42"/>
+                                                <rect key="frame" x="4" y="5" width="198" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1997">
-                                                        <rect key="frame" x="58" y="11" width="33" height="19"/>
+                                                        <rect key="frame" x="58" y="9" width="33" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="150" drawsBackground="YES" id="4417">
                                                             <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="1998">
@@ -1100,7 +1099,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2062">
-                                                        <rect key="frame" x="149" y="11" width="37" height="19"/>
+                                                        <rect key="frame" x="149" y="9" width="37" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="1.50" drawsBackground="YES" id="4419">
                                                             <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.00" negativeFormat="0.00" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="2063">
@@ -1116,7 +1115,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2065">
-                                                        <rect key="frame" x="98" y="12" width="71" height="17"/>
+                                                        <rect key="frame" x="98" y="10" width="71" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Power:" id="4420">
                                                             <font key="font" metaFont="system"/>
@@ -1125,7 +1124,7 @@ go to the last page always.</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2002">
-                                                        <rect key="frame" x="9" y="12" width="61" height="17"/>
+                                                        <rect key="frame" x="9" y="10" width="61" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Size:" id="4418">
                                                             <font key="font" metaFont="system"/>
@@ -1140,11 +1139,11 @@ go to the last page always.</string>
                                             <rect key="frame" x="17" y="428" width="413" height="58"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="n0L-yM-DGY">
-                                                <rect key="frame" x="3" y="3" width="407" height="40"/>
+                                                <rect key="frame" x="4" y="5" width="405" height="38"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2036">
-                                                        <rect key="frame" x="9" y="11" width="83" height="17"/>
+                                                        <rect key="frame" x="9" y="9" width="83" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Background:" id="4421">
                                                             <font key="font" metaFont="system"/>
@@ -1169,7 +1168,7 @@ go to the last page always.</string>
                                             </view>
                                         </box>
                                         <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2104">
-                                            <rect key="frame" x="18" y="18" width="152" height="18"/>
+                                            <rect key="frame" x="18" y="18" width="409" height="18"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <buttonCell key="cell" type="check" title="Don't hide menu bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4316">
                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -1177,7 +1176,7 @@ go to the last page always.</string>
                                             </buttonCell>
                                         </button>
                                         <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2105">
-                                            <rect key="frame" x="18" y="58" width="211" height="18"/>
+                                            <rect key="frame" x="18" y="58" width="409" height="18"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <buttonCell key="cell" type="check" title="Show thumbnail view on open" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="4317">
                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -1229,19 +1228,18 @@ go to the last page always.</string>
                                                                 <rect key="frame" x="20" y="45" width="507" height="370"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <clipView key="contentView" ambiguous="YES" id="tU4-ZW-cwx">
-                                                                    <rect key="frame" x="1" y="0.0" width="505" height="369"/>
+                                                                    <rect key="frame" x="1" y="1" width="490" height="353"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="4433" id="1364">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="505" height="346"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="515" height="330"/>
+                                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                             <size key="intercellSpacing" width="3" height="2"/>
                                                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                                             <tableColumns>
                                                                                 <tableColumn identifier="action" width="215" minWidth="40" maxWidth="1000" id="1366">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Action">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
@@ -1254,7 +1252,6 @@ go to the last page always.</string>
                                                                                 </tableColumn>
                                                                                 <tableColumn identifier="switchAction" width="10" minWidth="10" maxWidth="1000" id="2924">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                                     </tableHeaderCell>
@@ -1267,7 +1264,6 @@ go to the last page always.</string>
                                                                                 </tableColumn>
                                                                                 <tableColumn identifier="keyname" width="224.65576171875" minWidth="57.65576171875" maxWidth="1000" id="1365">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Key">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
@@ -1280,7 +1276,6 @@ go to the last page always.</string>
                                                                                 </tableColumn>
                                                                                 <tableColumn identifier="value" width="43.5" minWidth="4" maxWidth="1000" id="1786">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                                     </tableHeaderCell>
@@ -1296,15 +1291,15 @@ go to the last page always.</string>
                                                                     </subviews>
                                                                 </clipView>
                                                                 <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="4432">
-                                                                    <rect key="frame" x="1" y="353" width="505" height="16"/>
+                                                                    <rect key="frame" x="1" y="354" width="490" height="15"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </scroller>
                                                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="4434">
-                                                                    <rect key="frame" x="490" y="23" width="16" height="346"/>
+                                                                    <rect key="frame" x="491" y="24" width="15" height="330"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </scroller>
                                                                 <tableHeaderView key="headerView" id="4433">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="505" height="23"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="515" height="23"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </tableHeaderView>
                                                             </scrollView>
@@ -1380,19 +1375,18 @@ go to the last page always.</string>
                                                                 <rect key="frame" x="20" y="167" width="507" height="248"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <clipView key="contentView" ambiguous="YES" id="dFS-QD-UCW">
-                                                                    <rect key="frame" x="1" y="0.0" width="505" height="247"/>
+                                                                    <rect key="frame" x="1" y="1" width="490" height="231"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="4436" id="1429">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="505" height="224"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="490" height="208"/>
+                                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                             <size key="intercellSpacing" width="3" height="2"/>
                                                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                                             <tableColumns>
                                                                                 <tableColumn identifier="action" width="215" minWidth="40" maxWidth="1000" id="1430">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Action">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
@@ -1405,7 +1399,6 @@ go to the last page always.</string>
                                                                                 </tableColumn>
                                                                                 <tableColumn identifier="switchAction" width="10" minWidth="10" maxWidth="3.4028234663852886e+38" id="4065">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                                     </tableHeaderCell>
@@ -1418,7 +1411,6 @@ go to the last page always.</string>
                                                                                 </tableColumn>
                                                                                 <tableColumn identifier="button" width="224.7939453125" minWidth="42.7939453125" maxWidth="1000" id="1431">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Mouse">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
@@ -1429,9 +1421,8 @@ go to the last page always.</string>
                                                                                     </textFieldCell>
                                                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                                 </tableColumn>
-                                                                                <tableColumn identifier="value" width="43" minWidth="8" maxWidth="1000" id="1787">
+                                                                                <tableColumn identifier="value" width="8" minWidth="8" maxWidth="1000" id="1787">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center">
-                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                                     </tableHeaderCell>
@@ -1447,15 +1438,15 @@ go to the last page always.</string>
                                                                     </subviews>
                                                                 </clipView>
                                                                 <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="4435">
-                                                                    <rect key="frame" x="1" y="231" width="505" height="16"/>
+                                                                    <rect key="frame" x="1" y="232" width="490" height="15"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </scroller>
                                                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="4437">
-                                                                    <rect key="frame" x="490" y="23" width="16" height="224"/>
+                                                                    <rect key="frame" x="491" y="24" width="15" height="208"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </scroller>
                                                                 <tableHeaderView key="headerView" id="4436">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="505" height="23"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="490" height="23"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </tableHeaderView>
                                                             </scrollView>
@@ -1503,11 +1494,11 @@ go to the last page always.</string>
                                                                 <rect key="frame" x="17" y="4" width="513" height="102"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <view key="contentView" id="LH6-Hw-7ke">
-                                                                    <rect key="frame" x="3" y="3" width="507" height="84"/>
+                                                                    <rect key="frame" x="4" y="5" width="505" height="82"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="976">
-                                                                            <rect key="frame" x="9" y="53" width="65" height="14"/>
+                                                                            <rect key="frame" x="9" y="51" width="65" height="14"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="left" title="Sensitivity :" id="4380">
                                                                                 <font key="font" metaFont="smallSystem"/>
@@ -1516,14 +1507,14 @@ go to the last page always.</string>
                                                                             </textFieldCell>
                                                                         </textField>
                                                                         <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1074">
-                                                                            <rect key="frame" x="79" y="55" width="414" height="17"/>
+                                                                            <rect key="frame" x="79" y="53" width="414" height="17"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <sliderCell key="cell" controlSize="small" alignment="left" maxValue="2" doubleValue="1" tickMarkPosition="below" numberOfTickMarks="21" allowsTickMarkValuesOnly="YES" sliderType="linear" id="4381">
                                                                                 <font key="font" size="12" name="Helvetica"/>
                                                                             </sliderCell>
                                                                         </slider>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1077">
-                                                                            <rect key="frame" x="96" y="36" width="20" height="11"/>
+                                                                            <rect key="frame" x="96" y="34" width="20" height="11"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="low" id="4382">
                                                                                 <font key="font" metaFont="miniSystem"/>
@@ -1532,7 +1523,7 @@ go to the last page always.</string>
                                                                             </textFieldCell>
                                                                         </textField>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1078">
-                                                                            <rect key="frame" x="472" y="36" width="24" height="11"/>
+                                                                            <rect key="frame" x="472" y="34" width="24" height="11"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="high" id="4383">
                                                                                 <font key="font" metaFont="miniSystem"/>
@@ -1541,7 +1532,7 @@ go to the last page always.</string>
                                                                             </textFieldCell>
                                                                         </textField>
                                                                         <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1862">
-                                                                            <rect key="frame" x="129" y="7" width="146" height="22"/>
+                                                                            <rect key="frame" x="129" y="5" width="146" height="22"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <popUpButtonCell key="cell" type="push" title="Normal Scroll" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="1864" id="4384">
                                                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -1557,7 +1548,7 @@ go to the last page always.</string>
                                                                             </popUpButtonCell>
                                                                         </popUpButton>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1874">
-                                                                            <rect key="frame" x="9" y="12" width="118" height="14"/>
+                                                                            <rect key="frame" x="9" y="10" width="118" height="14"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="When you can scroll :" id="4385">
                                                                                 <font key="font" metaFont="smallSystem"/>
@@ -1566,7 +1557,7 @@ go to the last page always.</string>
                                                                             </textFieldCell>
                                                                         </textField>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1887">
-                                                                            <rect key="frame" x="76" y="36" width="16" height="11"/>
+                                                                            <rect key="frame" x="76" y="34" width="16" height="11"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="off" id="4386">
                                                                                 <font key="font" metaFont="miniSystem"/>
@@ -1575,7 +1566,7 @@ go to the last page always.</string>
                                                                             </textFieldCell>
                                                                         </textField>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1888">
-                                                                            <rect key="frame" x="269" y="36" width="35" height="11"/>
+                                                                            <rect key="frame" x="269" y="34" width="35" height="11"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                             <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="default" id="4387">
                                                                                 <font key="font" metaFont="miniSystem"/>
@@ -1914,7 +1905,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="597" y="346" width="425" height="173"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="521">
                 <rect key="frame" x="0.0" y="0.0" width="425" height="173"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -1922,11 +1913,11 @@ Gw
                     <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2904">
                         <rect key="frame" x="34" y="98" width="357" height="18"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="ftu-4p-hzE">
+                        <clipView key="contentView" drawsBackground="NO" id="ftu-4p-hzE">
                             <rect key="frame" x="1" y="1" width="355" height="16"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <textView ambiguous="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" usesFontPanel="YES" allowsDocumentBackgroundColorChange="YES" usesRuler="YES" quoteSubstitution="YES" dashSubstitution="YES" textReplacement="YES" spellingCorrection="YES" smartInsertDelete="YES" id="2905" customClass="COTextView">
+                                <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" usesFontPanel="YES" allowsDocumentBackgroundColorChange="YES" usesRuler="YES" quoteSubstitution="YES" dashSubstitution="YES" textReplacement="YES" spellingCorrection="YES" smartInsertDelete="YES" id="2905" customClass="COTextView">
                                     <rect key="frame" x="0.0" y="0.0" width="355" height="16"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -1937,7 +1928,7 @@ Gw
                                         <fragment content="Push any key...">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="user"/>
+                                                <font key="NSFont" usesAppearanceFont="YES"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -2028,7 +2019,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="422" y="173" width="581" height="379"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="562">
                 <rect key="frame" x="0.0" y="0.0" width="581" height="379"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -2036,20 +2027,19 @@ Gw
                     <scrollView fixedFrame="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="611">
                         <rect key="frame" x="20" y="50" width="541" height="279"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <clipView key="contentView" ambiguous="YES" id="Cu5-Wy-5Gx">
-                            <rect key="frame" x="1" y="0.0" width="539" height="278"/>
+                        <clipView key="contentView" id="Cu5-Wy-5Gx">
+                            <rect key="frame" x="1" y="1" width="528" height="266"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="firstColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" autosaveColumns="NO" headerView="4441" id="612">
-                                    <rect key="frame" x="0.0" y="0.0" width="539" height="255"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="528" height="243"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn identifier="name" width="490" minWidth="40" maxWidth="1000" id="610">
+                                        <tableColumn identifier="name" width="470" minWidth="40" maxWidth="1000" id="610">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
-                                                <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableHeaderCell>
@@ -2060,9 +2050,8 @@ Gw
                                             </textFieldCell>
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                         </tableColumn>
-                                        <tableColumn identifier="page" width="43.141998291015625" minWidth="33.141998291015625" maxWidth="1000" id="613">
+                                        <tableColumn identifier="page" width="43" minWidth="33.141998291015625" maxWidth="1000" id="613">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Page">
-                                                <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableHeaderCell>
@@ -2088,15 +2077,15 @@ Gw
                             </subviews>
                         </clipView>
                         <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="4440">
-                            <rect key="frame" x="1" y="264" width="539" height="14"/>
+                            <rect key="frame" x="1" y="267" width="528" height="11"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="4442">
-                            <rect key="frame" x="526" y="23" width="14" height="255"/>
+                            <rect key="frame" x="529" y="24" width="11" height="243"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <tableHeaderView key="headerView" id="4441">
-                            <rect key="frame" x="0.0" y="0.0" width="539" height="23"/>
+                            <rect key="frame" x="0.0" y="0.0" width="528" height="23"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
@@ -2192,7 +2181,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="120" y="507" width="391" height="107"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="743">
                 <rect key="frame" x="0.0" y="0.0" width="391" height="107"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -2251,7 +2240,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="490" y="257" width="449" height="351"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="771">
                 <rect key="frame" x="0.0" y="0.0" width="449" height="351"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -2259,8 +2248,8 @@ Gw
                     <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="778">
                         <rect key="frame" x="0.0" y="0.0" width="449" height="351"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <clipView key="contentView" ambiguous="YES" copiesOnScroll="NO" id="Bfm-Bs-9B9">
-                            <rect key="frame" x="0.0" y="0.0" width="449" height="351"/>
+                        <clipView key="contentView" copiesOnScroll="NO" id="Bfm-Bs-9B9">
+                            <rect key="frame" x="0.0" y="0.0" width="434" height="336"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="777" customClass="FullImageView">
@@ -2351,7 +2340,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="135" y="324" width="739" height="363"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="982">
                 <rect key="frame" x="0.0" y="0.0" width="739" height="363"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -2418,20 +2407,19 @@ Gw
                             <scrollView fixedFrame="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="995">
                                 <rect key="frame" x="0.0" y="0.0" width="296" height="279"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <clipView key="contentView" ambiguous="YES" id="vwn-bQ-fWA">
-                                    <rect key="frame" x="1" y="0.0" width="294" height="278"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <clipView key="contentView" id="vwn-bQ-fWA">
+                                    <rect key="frame" x="1" y="1" width="283" height="266"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnReordering="NO" multipleSelection="NO" autosaveColumns="NO" headerView="4449" id="997">
-                                            <rect key="frame" x="0.0" y="0.0" width="294" height="255"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="283" height="243"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn identifier="folder" width="290.869140625" minWidth="64.869140625" maxWidth="5000" id="996">
+                                                <tableColumn identifier="folder" width="271" minWidth="64.869140625" maxWidth="5000" id="996">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="BookName">
-                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                     </tableHeaderCell>
@@ -2447,35 +2435,34 @@ Gw
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="4448">
-                                    <rect key="frame" x="1" y="264" width="294" height="14"/>
+                                    <rect key="frame" x="1" y="267" width="283" height="11"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="4450">
-                                    <rect key="frame" x="281" y="23" width="14" height="255"/>
+                                    <rect key="frame" x="284" y="24" width="11" height="243"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <tableHeaderView key="headerView" id="4449">
-                                    <rect key="frame" x="0.0" y="0.0" width="294" height="23"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="283" height="23"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
                             <scrollView fixedFrame="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="987">
                                 <rect key="frame" x="305" y="0.0" width="395" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
-                                <clipView key="contentView" ambiguous="YES" id="004-bk-tbV">
-                                    <rect key="frame" x="1" y="0.0" width="393" height="278"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <clipView key="contentView" id="004-bk-tbV">
+                                    <rect key="frame" x="1" y="1" width="382" height="266"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="firstColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" autosaveColumns="NO" headerView="4446" id="984">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="255"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="382" height="243"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn identifier="name" width="344" minWidth="40" maxWidth="1000" id="993">
+                                                <tableColumn identifier="name" width="324" minWidth="40" maxWidth="1000" id="993">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
-                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                     </tableHeaderCell>
@@ -2486,9 +2473,8 @@ Gw
                                                     </textFieldCell>
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                 </tableColumn>
-                                                <tableColumn identifier="page" width="43.141998291015625" minWidth="33.14208984375" maxWidth="1000" id="986">
+                                                <tableColumn identifier="page" width="43" minWidth="33.14208984375" maxWidth="1000" id="986">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Page">
-                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                     </tableHeaderCell>
@@ -2511,15 +2497,15 @@ Gw
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="4445">
-                                    <rect key="frame" x="1" y="264" width="393" height="14"/>
+                                    <rect key="frame" x="1" y="267" width="382" height="11"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="4447">
-                                    <rect key="frame" x="380" y="23" width="14" height="255"/>
+                                    <rect key="frame" x="383" y="24" width="11" height="243"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <tableHeaderView key="headerView" id="4446">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="23"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="23"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
@@ -2566,7 +2552,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" closable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="407" y="253" width="608" height="389"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="1083">
                 <rect key="frame" x="0.0" y="0.0" width="608" height="389"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -2755,7 +2741,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="152" y="325" width="425" height="204"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="1437">
                 <rect key="frame" x="0.0" y="0.0" width="425" height="204"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -3376,7 +3362,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="309" y="299" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="2810">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -3397,7 +3383,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="520" y="258" width="528" height="388"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="2864">
                 <rect key="frame" x="0.0" y="0.0" width="528" height="388"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -3414,7 +3400,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="389" width="276" height="121"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="3297">
                 <rect key="frame" x="0.0" y="0.0" width="276" height="121"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -3454,7 +3440,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES" HUD="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="90" y="125" width="290" height="280"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="rHs-xr-KcK">
                 <rect key="frame" x="0.0" y="0.0" width="290" height="280"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -3474,12 +3460,12 @@ Gw
                     <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" scrollerKnobStyle="dark" translatesAutoresizingMaskIntoConstraints="NO" id="T7G-gM-l9s">
                         <rect key="frame" x="5" y="7" width="279" height="244"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="RHv-Bg-9Br">
-                            <rect key="frame" x="0.0" y="0.0" width="279" height="244"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="RHv-Bg-9Br">
+                            <rect key="frame" x="0.0" y="0.0" width="264" height="244"/>
+                            <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <view ambiguous="YES" id="1oQ-cG-8Uy" customClass="NSStackView">
-                                    <rect key="frame" x="0.0" y="0.0" width="279" height="244"/>
+                                <view id="1oQ-cG-8Uy" customClass="NSStackView">
+                                    <rect key="frame" x="0.0" y="0.0" width="264" height="244"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                             </subviews>
