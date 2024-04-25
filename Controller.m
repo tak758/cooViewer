@@ -2968,6 +2968,7 @@ static const int DIALOG_CANCEL	= 129;
 		currentBookPath = nil;
 		currentBookName = nil;
 		currentBookAlias = nil;
+		[currentBookSetting removeAllObjects];
 		[imageMutableArray removeAllObjects];
 		[bookmarkArray removeAllObjects];
 		[marksArray removeAllObjects];
