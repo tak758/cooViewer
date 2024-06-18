@@ -1,3 +1,5 @@
+#+OPTIONS: "\n:t"
+#+OPTIONS: ^:t
 * 自分用 cooViewer
 
 本家 [[https://github.com/coo-ona/cooViewer][coo-ona/cooViewer]] の [[https://github.com/coo-ona/cooViewer/forks?include=active&page=1&period=&sort_by=stargazer_counts][Fork]] や [[https://github.com/coo-ona/cooViewer/pulls][Pull requests]] から、自分が欲しいと思った機能をマージしたリポジトリ。
@@ -27,10 +29,23 @@
 
 ** ビルド方法
 
+ローカルでビルドする場合。
 #+begin_src sh
 git clone --recursive https://github.com/tak758/cooViewer.git
 cd cooViewer
 xcodebuild -configuration Deployment
 open build/Deployment/cooViewer.app
 #+end_src
+リモート(GitHub Actions)でもビルドが可能です。
 
+** バイナリ
+
+https://github.com/tak758/cooViewer/releases/latest
+
+- x86_64 + arm64 のユニバーサルバイナリ
+- Mac OS X 10.13 (High Sierra) 以上が必要
+
+[[https://github.com/tak758/cooViewer/actions][GitHub Actions]] でビルドしたものです。\\
+Xcode 14.3.1 を使用し =-sdk macosx13.3= が指定してあります。
+
+署名はしてないのでGatekeeperがアプリ実行を拒否します。

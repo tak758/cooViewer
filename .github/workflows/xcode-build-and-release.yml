@@ -1,0 +1,44 @@
+name: Xcode Build and Release
+
+on:
+  push:
+    tags:
+      - '[0-9][0-9][0-9][0-9]-[0-9][0-9]'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build default scheme using xcodebuild command
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    - name: Select Xcode version
+      run: sudo xcode-select -s '/Applications/Xcode_14.3.1.app/Contents/Developer'
+    - name: Show Xcode version
+      run: xcodebuild -version
+    - name: Build
+      run: xcodebuild -configuration Deployment -sdk macosx13.3
+    - name: Zip files
+      run: (cd build/Deployment/; zip -ry cooViewer.app.zip cooViewer.app)
+
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: build/Deployment/cooViewer.app.zip
+        tag: ${{ github.ref }}
+        overwrite: true
+
+    - name: Delete older releases
+      uses: jay2610/delete-older-releases@1.0.0
+      with:
+        keep_latest: 1
+        delete_tags: true
+        delete_type: 'release'
+        target_branch: 'master'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
